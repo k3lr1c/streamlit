@@ -17,7 +17,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df1 = pd.read_csv('/content/UFO_scrubbed.csv')
+df1 = pd.read_csv('https://github.com/k3lr1c/streamlit/blob/main/UFO_scrubbed.csv')
 
 alt.data_transformers.disable_max_rows()
 
