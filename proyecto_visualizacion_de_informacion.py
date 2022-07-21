@@ -11,7 +11,7 @@ Original file is located at
 - Felipe Aguirre
 - Tomas Vega
 """
-!pip install vega-datasets
+pip install vega-datasets
 
 import altair as alt
 import pandas as pd
