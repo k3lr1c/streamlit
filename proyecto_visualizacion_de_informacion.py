@@ -11,12 +11,13 @@ Original file is located at
 - Felipe Aguirre
 - Tomas Vega
 """
+!pip install vega-datasets
 
 import altair as alt
 import pandas as pd
 import numpy as np
 import streamlit as st
-import vega_datasets import data 
+from vega_datasets import data 
 
 df1 = pd.read_csv('https://raw.githubusercontent.com/k3lr1c/streamlit/main/UFO_scrubbed.csv')
 
